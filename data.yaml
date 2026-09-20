@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['barrier']
+
+roboflow:
+  workspace: ruslans-workspace-71bmn
+  project: find-barrier-mqjfb
+  version: dataset
+  license: Public Domain
+  url: https://universe.roboflow.com/ruslans-workspace-71bmn/find-barrier-mqjfb/dataset/dataset
